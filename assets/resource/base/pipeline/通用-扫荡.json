@@ -281,14 +281,8 @@
         "focus": true
     },
     "开启加成": {
-        "recognition": "OCR",
-        "expected": "开启",
-        "roi": [
-            761,
-            416,
-            83,
-            66
-        ],
+        "recognition": "TemplateMatch",
+        "template": "开启扫荡加成.png",
         "action": "Click",
         "pre_wait_freezes": {
             "time": 1000,
